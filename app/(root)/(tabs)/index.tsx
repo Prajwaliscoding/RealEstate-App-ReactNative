@@ -11,8 +11,6 @@ export default function Index() {
       }}>
 
       <Text className = "font-bold text-lg my-10">Welcome to ReState</Text> 
-      {/*To make Tailwind CSS works, we can give it a class name 
-      // and equal it to some property. */}
       <Link href="/sign-in">Sign In</Link>
       <Link href="/explore">Explore</Link>
       <Link href="/profile">Profile</Link>
