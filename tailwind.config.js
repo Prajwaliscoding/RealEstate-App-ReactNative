@@ -2,10 +2,10 @@
 module.exports = {
   content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
   presets: [require("nativewind/preset")],
-  theme: {
-    extend: {
+  theme: {                               
+    extend: {                            
       fontFamily:{
-        rubik : ["Rubik-Regular", "sans-serif"],
+        rubik : ["Rubik-Regular", "sans-serif"], 
         "rubik-bold" : ["Rubik-Bold", "sans-serif"],
         "rubik-extrabold" : ["Rubik-ExtraBold", "sans-serif"],
         "rubik-medium" : ["Rubik-Medium", "sans-serif"],
@@ -14,9 +14,9 @@ module.exports = {
       },
       colors: {
         "primary" : {
-          100 : "#0061FF0A",
-          200 : "#0061FF1A",
-          300 : "#0061FF"
+          100 : "#0061FF0A",          
+          200 : "#0061FF1A",          
+          300 : "#0061FF"              
         }
       },
       accent: {
