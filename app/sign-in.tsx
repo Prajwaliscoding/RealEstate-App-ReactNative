@@ -18,7 +18,7 @@ const SignIn = () => {
             <Text className="text-primary-300">Your Ideal Home</Text>
           </Text>
           <Text className="text-lg text-center font-rubik text-black-200 mt-12">Login to ReState with Google</Text>
-          <TouchableOpacity onPress={handleLogin} className="bg-white shadow-md shadow-zinc-300 rounded-full w-full py-4 mt-1">
+          <TouchableOpacity onPress={handleLogin} className="bg-blue-100 shadow-lg shadow-zinc-300 rounded-full w-full py-4 mt-1">
             <View className="flex flex-row items-center justify-center space-x-3">
               <Image
               source = {icons.google}
