@@ -18,14 +18,16 @@ const SignIn = () => {
             <Text className="text-primary-300">Your Ideal Home</Text>
           </Text>
           <Text className="text-lg text-center font-rubik text-black-200 mt-12">Login to ReState with Google</Text>
-          <TouchableOpacity onPress={handleLogin} className="bg-white shadow-lg shadow-zinc-400 rounded-full w-full py-4 mt-5">
+          <TouchableOpacity onPress={handleLogin} className="bg-white shadow-md shadow-zinc-300 rounded-full w-full py-4 mt-5">
             <View className="flex flex-row items-center justify-center space-x-3">
               <Image
               source = {icons.google}
               className="w-5 h-5"
               resizeMode="contain"
               />
-              <Text className="text-lg font-rubik-medium text-black-300 ml-2">Continue with Google</Text>
+              <Text className="text-lg font-rubik-medium text-black-300 ml-2">Continue with Google
+              
+              </Text>
             </View>
           </TouchableOpacity>
         </View>
