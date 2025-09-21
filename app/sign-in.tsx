@@ -13,6 +13,7 @@ const SignIn = () => {
           <Text className="text-3xl font-rubik-bold text-black-300 text-center mt-2">Let's get you closer to {"\n"}
             <Text className="text-primary-300">Your Ideal Home</Text>
           </Text>
+          <Text className="text-lg text-center font-rubik text-black-200 mt-12">Login to ReState with Google</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
