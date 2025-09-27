@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "RealEstate-App-ReactNative",        
-    "slug": "realestate",                      
+    "slug": "realestate", 
+    "owner": "prajwalsexpo",          
     "version": "1.0.0",                        
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",         
@@ -60,6 +61,10 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "supabaseUrl": "https://mplnuxiwwxlcagjalfqi.supabase.co", // from dashboard of supabase
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1wbG51eGl3d3hsY2FnamFsZnFpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg5ODQxODEsImV4cCI6MjA3NDU2MDE4MX0.F-yyp1ZMkSqlTeYKQvu04D38x35uWFNrmNzSfZonYAU"
     }
   }
 }
